@@ -1,0 +1,5 @@
+com\bdd\runner\RunnerTest.class
+com\bdd\stepdefinition\BuscarHotelStepDefinition.class
+com\bdd\xpath\ObtenerXpath.class
+comn\Util.class
+com\bdd\view\BuscarHotelView.class
