@@ -20,17 +20,17 @@ public class BuscarHotelStepDefinition {
     @When("doy clic a ingresar por gmail")
     public void doy_clic_a_ingresar_por_gmail() {
         // Write code here that turns the phrase above into concrete actions
-        /*
+        
         buscarHotelView().clickIngrearLogin();
         buscarHotelView().clickSeleccionarCuenta();
 
-         */
+         
     }
     @When("ingreso destino {string}")
     public void ingreso_destino(String string) {
         // Write code here that turns the phrase above into concrete actions
         System.out.println("Ingreso destino: "+string);
-/*
+
         buscarHotelView().clickBuscarDestinoBooking();
         buscarHotelView().escribirDestinoBooking(string);
         buscarHotelView().seleccionarbuscarDestino();
@@ -38,7 +38,7 @@ public class BuscarHotelStepDefinition {
         buscarHotelView().escogerCantidadNinnios();
         buscarHotelView().buscarReserva();
 
- */
+ 
 
 
 
@@ -47,31 +47,31 @@ public class BuscarHotelStepDefinition {
     public void selecciono_el_hotel_destino() {
         // Write code here that turns the phrase above into concrete actions
         System.out.println("selecciono el hotel detino ");
-       //buscarHotelView().seleccionoHotelDestino();
+       buscarHotelView().seleccionoHotelDestino();
     }
     @When("selecciono la habitacion")
     public void selecciono_la_habitacion() {
         // Write code here that turns the phrase above into concrete actions
         System.out.println("selecciono el hotel detino ");
-        //buscarHotelView().seleccionoHabitacion();
+        buscarHotelView().seleccionoHabitacion();
     }
     @When("selecciono la estancia")
     public void selecciono_la_estancia() {
         // Write code here that turns the phrase above into concrete actions
         System.out.println("selecciono la estancia ");
-        /*
+        
        buscarHotelView().seleccionarReservaHabitacion();
        buscarHotelView().seleccionarEstancia();
        buscarHotelView().reservaEstancia();
 
-         */
+         
 
     }
     @When("completo los datos de reserva")
     public void completo_los_datos_de_reserva() {
         // Write code here that turns the phrase above into concrete actions
         System.out.println("completo los datos de reserva ");
-        //buscarHotelView().completarDatosReserva();
+        buscarHotelView().completarDatosReserva();
     }
 
 
